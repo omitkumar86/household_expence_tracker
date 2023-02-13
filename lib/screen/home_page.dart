@@ -27,6 +27,12 @@ class _HomePageState extends State<HomePage> {
             Container(
               child: Text('Home'),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              child: Text('Screen'),
+            ),
           ],
         ),
       )
