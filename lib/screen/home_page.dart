@@ -14,9 +14,22 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Expence Tracker'),
       ),
-      body: Center(
-        child: Text('Home Screen'),
-      ),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          children: [
+            Container(
+              child: Text('Home Page'),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              child: Text('Home'),
+            ),
+          ],
+        ),
+      )
     );
   }
 }
