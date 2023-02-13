@@ -18,20 +18,10 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.all(20.0),
         child: Column(
           children: [
-            Container(
-              child: Text('Home Page'),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Container(
-              child: Text('Home'),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Container(
-              child: Text('Screen'),
+            Center(
+              child: Container(
+                child: Text('Home Page'),
+              ),
             ),
           ],
         ),
